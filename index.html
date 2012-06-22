@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wordify</title>
+	<link rel="stylesheet" href="http://cdn.airy.me/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://cdn.airy.me/jquery.js"></script>
+</head>
+<body>
+<div class="wrap">
+	<div id="side">
+		<div class="title"><h1>Wordify</h1></div>
+		<div class="newgame">
+			<button class="btn">Start game</button>	
+		</div>
+		<div class="leaders">
+			<h2>Leaders</h2>		
+		</div>
+	</div>
+	<div id="main">
+		<div class="status">
+			<span class="info"></span>
+			<div id="result" class="clr">
+				<div class="lt">Score: <span id="score">0</span></div>
+				<div id="error"></div>
+				<div class="rt">Time: <span id="time">40</span></div>
+			</div>
+		</div>
+		<div id="game">
+			<div class="hide">
+				<h2>Your letters</h2>
+				<div id="letters"></div>
+				
+				<h2>Your word</h2>
+				<div id="word"></div>
+							
+				<div class="lt"><div id="used"></div></div>
+				<div class="rt"><div id="def"></div></div>	
+			</div>
+		</div>
+		<div class="social">
+			<div class="lt">
+				<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://apps.facebook.com/airy-wordify" data-text="Wordify: How much words can you make? -" data-count="horizontal" data-via="airyweb">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+			<div class="rt">
+				
+			</div>
+			<div class="clear"></div>
+			
+		</div>
+		
+	</div>
+	<div class="clear"></div>
+</div>
+<script src="js/Wordify.js"></script>
+<script src="js/interface.js"></script>
+</body>
+</html>

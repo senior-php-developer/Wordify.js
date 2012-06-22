@@ -1,0 +1,77 @@
+@font-face {font-family: 'Aller'; src: url('fonts/aller.eot'); src: local('©'), url('fonts/aller.ttf') format('truetype');}
+
+.clr {overflow: hidden; _width: 100%;}
+.clear {clear: both; width: 0; height: 0;}
+.hide {display: none;}
+.lt {float: left; _display: inline;}
+.rt {float: right; _display: inline;}
+.invis {visibility: hidden;}
+
+body {color: #333; font-family: 'trebuchet MS'; font-size: 13px;}
+.wrap {width: 757px; margin: 10px auto 40px; position: relative; border: 1px solid #556ccd; background: url(img/body.png) repeat-y; min-height: 400px;}
+
+button {border:1px solid #396BA7; color:#143781; cursor:pointer; padding:2px 6px; text-shadow:0 1px 0 #CCCCCC; background-image: -moz-linear-gradient(center top, #CDDDFF, #5681FE); background-image: -webkit-gradient(linear, left top, left bottom, from(#CDDDFF), to(#5681FE)); border-radius: 5px; -moz-border-radius: 5px;}
+
+
+#side {width: 200px; height: 500px; border-right: 1px solid #95a7f4; float: left;}
+#side h2 {font-family: Arial; font-size: 15px; color: #222; text-align: center; margin-bottom: 10px;}
+
+#side .title {padding: 10px; height: 17px; border-bottom: 1px solid #95a7f4; text-align: center;}
+#side .title h1 {font-family: Aller; font-size: 17px; color: #444; text-shadow: 0 1px 0 #fff;}
+
+#side .newgame {padding: 10px 15px; border-top: 1px solid #f0f0f0; border-bottom: 1px solid #95a7f4;}
+#side .newgame button {margin-top:15px; margin-left: 45px;}
+
+#side .leaders  {padding: 15px; border-top: 1px solid #f0f0f0;}
+
+
+/** main container **/
+
+#main {border-left:1px solid #F1F1F1; float:right; height:500px; width:555px;}
+
+#main .status {border-bottom: 1px solid #95a7f4; height: 17px; padding: 10px;}
+#main .status .buttons {float: right; margin-top: -3px;}
+#main .status button {margin: 0 3px;}
+#main .status .info {font-size: 13px; float: left;}
+
+#main #game {border-top: 1px solid #f0f0f0; border-bottom: 1px solid #95a7f4; padding: 15px; min-height: 390px;}
+
+
+#result div {width: 80px; font-size: 18px; margin: 0 18px;}
+#result #error {width: 300px; margin: 0; float: left; text-align: center; color: red;}
+
+#main h2 {font-size: 17px;}
+#main #letters, #main #word {height: 38px;  margin: 5px 0 10px; text-align: center; line-height: 35px; font-size: 27px;}
+
+#main #letters {border: 1px solid #97ABF1; background: #E6F1FB;}
+#main #letters span {margin: 10px;}
+
+#main #word {border: 1px solid #94B4A1; background: #E7FBE6; margin-bottom: 12px;}
+#main #word span {margin: 5px;}
+
+#main #used {border-right: 1px solid #98AAD6; height: 245px; padding: 0 10px; width: 140px; font-size: 14px; line-height: 175%; overflow: auto;}
+#main #def {width: 350px; padding-left: 10px; padding-right: 3px; height: 245px; overflow-y: auto; border-left: 1px solid #fff; font-size: 13px; line-height: 130%;}
+#main #def p {margin-bottom: 7px;}
+
+
+/*  */
+#main .social { border-top: 1px solid #f0f0f0; padding: 10px; }
+
+.settings {margin-left: -500px; width: 500px;}
+.settings input {padding: 1px 5px; width: 160px;}
+
+
+.connects {width: 700px; margin: auto;}
+
+
+
+#overlay {height: 515px; left: 0; opacity: 0.85; position: absolute;  top: 0; width: 100%; z-index: 1000; background: #222;}
+#overlay .info {background: #026AA2; border: 3px solid #fff; margin: auto; position: relative; top: 120px;  width: 500px;  z-index: 1001; padding: 10px;}
+#overlay .info h1 {font-size: 40px; font-family: Arial; text-shadow: 0 2px 2px #000; margin-bottom: 10px; color: #A2B2ED;}
+#overlay .info p {color: #fff;  font-size: 15px;  line-height: 140%;}
+#overlay .browsers { background: white; border: 4px solid #555555; margin: 10px auto; overflow: hidden;  width: 450px; padding-left: 15px;}
+#overlay .browsers div {background: url(http://cdn.webdev4.us/browsers.png) no-repeat; float: left;  height: 135px; width: 104px;}
+#overlay .browsers div.chrome {background-position: -395px 0;}
+#overlay .browsers div.firefox {background-position: -102px 0;}
+#overlay .browsers div.safari {background-position: -196px 0;}
+#overlay .browsers div.opera {background-position: 0 0;}
